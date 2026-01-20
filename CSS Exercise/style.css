@@ -1,0 +1,43 @@
+/* Universal selector to remove default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selectors */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Group selectors */
+h2, h3 {
+    color: darkgreen;
+}
+
+/* Class selector */
+.section-box {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ID selector */
+#student-name {
+    color: brown;
+    font-weight: bold;
+}
+
+/* Descendant selectors */
+.course-list li {
+    color: navy;
+}
+
+.hobby-list li {
+    color: purple;
+}
